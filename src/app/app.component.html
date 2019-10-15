@@ -1,0 +1,110 @@
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgb(250, 246, 242)">
+    <a class="navbar-brand" >
+        <img src="\assets\images\logo1.png" height="50px" width="100px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+     
+        <li class="nav-item">
+          <a class="nav-link" routerLink="home" id="navbarDropdown">
+            Home
+          </a>
+        </li>
+        <li class="nav-item " style="margin-left: 30px">
+          <input class="form-control" type="text" placeholder="search here....." [(ngModel)]="searchTerm" style="margin-right: 450px">
+        </li>
+        <ul class="nav">
+        <li class="nav-item" style="margin-left: 60px">
+            <a class="nav-link" routerLink="user-login" id="navbarDropdown" (click)="changelogout()">
+              {{log}}
+            </a>
+          </li>
+        </ul>
+          <li class="nav-item ">
+            <a class="nav-link" routerLink="cart" id="navbarDropdown">
+              <img src="\assets\images\shopping-cart.jpg" height="20px">
+             cart<sup ><span style="color: rgb(240, 23, 23);font-size: 13px">{{count}}</span></sup>
+            </a>
+           
+          </li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="nav nav-pills nav-justified mt-2" style="background-color: rgb(213, 243, 234)">
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">Clothing</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" routerLink="men-clothing">Men</a>
+          <a class="dropdown-item" routerLink="women-clothing">Women</a>
+          <a class="dropdown-item" routerLink="kids-clothing">Kids</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">Gadgets</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" routerLink="mobile-gadgets">Mobiles</a>
+            <a class="dropdown-item" routerLink="laptop-gadgets">Laptops</a>
+            <a class="dropdown-item" routerLink="tv-gadgets">TVs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">Footwear</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" routerLink="men-footwear">Mobile</a>
+              <a class="dropdown-item"  routerLink="women-footwear">Laptop</a>
+            </div>
+          </li>
+        
+     </ul>
+     <router-outlet></router-outlet>
+     
+</div>
+<div class="row p-5 mt-4" style="background-color: rgb(70, 68, 68)">
+  <div class="col-sm-3">
+    <h4 class="text-light">Get to Know Us</h4><br>
+    <ul  class="text-light text-justify" style="margin-left: -20px;margin-top: -24px">
+      <li>About Us</li>
+      <li>Careers</li>
+      <li>Gift a Smile</li>
+    </ul>
+
+  </div>
+  <div class="col-sm-3">
+    <h4  class="text-light text-justify">Connect with Us</h4>
+    <ul  class="text-light text-justify" style="margin-left: -20px">
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+      </ul>
+    </div>
+    <div class="col-sm-3">
+    <h4  class="text-light text-justify">Make Money with Us</h4>
+    <ul  class="text-light text-justify" style="margin-left: -20px">
+        <li>Sell on GoShopping</li>
+        <li>Become an Affiliate</li>
+        <li>Fulfilment by GoShopping</li>
+        <li>Advertise Your Products</li>
+        <li>GoShopping Pay on Merchants</li>
+      </ul>
+      </div>
+      <div class="col-sm-3">
+        <h4  class="text-light text-justify">Let Us Help You</h4>
+        <ul  class="text-light text-justify" style="margin-left: -20px">
+            <li>Returns Centre</li>
+            <li>100% Purchase Protection</li>
+            <li>GoShopping Assistant</li>
+            <li>Help</li>
+          </ul>
+    
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm-12">
+         <h5 style="margin-left: 500px">© 2018 www.goshopping.com. All rights reserved.</h5> 
+        </div>
+        </div>
+</div>

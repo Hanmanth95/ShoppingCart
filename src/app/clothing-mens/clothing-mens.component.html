@@ -1,0 +1,48 @@
+<div class="container mt-3">
+  <input class="form-control" type="text" placeholder="search here....." [(ngModel)]="searchTerm">
+  <a (click)="sort('price')">Sort by Price</a>
+  <div class="row">
+    <div class="col-3 card mt-3" *ngFor="let a=index;let i of menData|search:searchTerm">
+      <img class="card-img-top" data-toggle="tooltip" data-placement="top" title="{{i.name}}" [src]="i.img" alt="Card image cap"
+        style="height: 350px">
+      <div class="card-body" style="margin-left: auto;margin-right: auto">
+        <b class="card-text">{{i.name}}</b><br>
+        <b class="card-text">Rs.{{i.price}}</b><br>
+        <button type="button" class="btn btn-primary" data-toggle="modal" [attr.data-target]="'#'+a">
+          More Details
+        </button>
+        <div class="modal fade" id="{{a}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Product Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body row">
+                <div class="col-6">
+                  <img src="{{i.img}}" alt="image" height="300px" width="200px">
+                </div>
+                <div class="col-6">
+                  <ul>
+                    <li>Ideal for:{{i.idealfor}}</li>
+                    <li>Brand Fit:{{i.brandfit}}</li>
+                    <li>Fabric:{{i.fabric}}</li>
+                    <li>Fit:{{i.fit}}</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="toCart(i)" (click)="cartcount()">Add
+                  to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

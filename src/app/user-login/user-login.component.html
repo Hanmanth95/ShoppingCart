@@ -1,0 +1,23 @@
+<div class="row">
+  <div style="margin-left: auto;margin-right: auto;margin-top: 100px;background-color: rgb(202, 225, 226)" class="jumbotron col-4 p-4">
+<form class="form-group" #refForm="ngForm" (ngSubmit)="onSubmit(refForm.value);logout(refForm.value)">
+    
+    <label class="form-group">User Name</label>
+    <input type="text" class="form-control" name="name" [(ngModel)]="name" #refName="ngModel" required>
+    <label class="alert alert-danger" *ngIf="refName.invalid&&refName.touched">
+      *Please Enter Name
+    </label><br>
+
+    <label class="form-group">Password</label>
+    <input type="password" class="form-control" name="pwd" [(ngModel)]="pwd" #refPwd="ngModel" required>
+    <label class="alert alert-danger" *ngIf="refPwd.invalid&&refPwd.touched">
+      *Please Enter valid passowrd
+    </label><br>
+   
+    <button type="submit" class="btn btn-primary">Login</button>
+    <small>New User?</small><button class="btn btn-danger ml-2" (click)="navigateTo()">Signup</button>
+   
+  </form>
+</div>
+</div>
+

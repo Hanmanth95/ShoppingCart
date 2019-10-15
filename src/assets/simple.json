@@ -1,0 +1,203 @@
+{
+    "men": [
+        {
+            "name": "Arrow",
+            "price": 1399,
+            "idealfor": "Men1",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menF.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1299,
+            "idealfor": "Men1",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menF1.jpg"
+        },
+        {
+            "name": "Wrangler",
+            "price": 1199,
+            "idealfor": "Men1",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menF2.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "idealfor": "Men1",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menF3.jpg"
+        }
+    ],
+    "men1": [
+        {
+            "id": "#a",
+            "name": "Arrow",
+            "price": 1399,
+            "idealfor": "Men",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menT3.jpg"
+        },
+        {
+            "id": "#b",
+            "name": "Louis Phileppe",
+            "price": 1299,
+            "idealfor": "Men",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menT4.jpg"
+        },
+        {
+            "id": "#c",
+            "name": "Tommy Hilfiger",
+            "price": 1199,
+            "idealfor": "Men",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menT.jpg"
+        },
+        {
+            "name": "Mast & Harbour",
+            "price": 1499,
+            "idealfor": "Men",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menT5.jpg"
+        },
+        {
+            "name": "Arrow",
+            "price": 1699,
+            "idealfor": "Men1",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menF.jpg"
+        },
+        {
+            "name": "Nike",
+            "price": 1199,
+            "idealfor": "Men1",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menF1.jpg"
+        },
+        {
+            "name": "Wrogn",
+            "price": 1299,
+            "idealfor": "Men1",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menF2.jpg"
+        },
+        {
+            "name": "Louis Phileppe",
+            "price": 1499,
+            "idealfor": "Men1",
+            "brandfit": "Regular",
+            "fabric": "Cotton",
+            "fit": "Regular",
+            "img": "/assets/images/Clothing/Men/menF3.jpg"
+        }
+    ],
+    "women": [
+        {
+            "name": "Arrow",
+            "price": 1399,
+            "img": "/assets/images/Clothing/Women/women1.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "img": "/assets/images/Clothing/Women/women2.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "img": "/assets/images/Clothing/Women/women3.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "img": "/assets/images/Clothing/Women/women4.jpg"
+        }
+    ],
+    "women1": [
+        {
+            "name": "Arrow",
+            "price": 1399,
+            "img": "/assets/images/Clothing/Women/women5.jpg"
+        },
+        {
+            "name": "Arrow",
+            "price": 1399,
+            "img": "/assets/images/Clothing/Women/women6.jpg"
+        },
+        {
+            "name": "Arrow",
+            "price": 1399,
+            "img": "/assets/images/Clothing/Women/women7.jpg"
+        },
+        {
+            "name": "Arrow",
+            "price": 1399,
+            "img": "/assets/images/Clothing/Women/women8.jpg"
+        },
+        {
+            "name": "Arrow",
+            "price": 1399,
+            "img": "/assets/images/Clothing/Women/women1.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "img": "/assets/images/Clothing/Women/women2.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "img": "/assets/images/Clothing/Women/women3.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "img": "/assets/images/Clothing/Women/women4.jpg"
+        }
+    ],
+    "kids": [
+        {
+            "name": "Arrow",
+            "price": 1399,
+            "img": "/assets/images/Clothing/Kids/kid3.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "img": "/assets/images/Clothing/Kids/kid4.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "img": "/assets/images/Clothing/Kids/kid2.jpg"
+        },
+        {
+            "name": "Leecooper",
+            "price": 1599,
+            "img": "/assets/images/Clothing/Kids/kid1.jpg"
+        }
+    ]
+}
